@@ -54,7 +54,6 @@ function generateMaze(d) {
 
 readLine.question('input your dimension: ', d => {
     let maze = generateMaze(d);
-
     maze.forEach(element => {
         console.log(element.join(""))
     });
